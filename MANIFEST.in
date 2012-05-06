@@ -2,3 +2,6 @@ recursive-include js/jquery_colorpicker/resources *.js
 recursive-include js/jquery_colorpicker/resources *.css
 recursive-include js/jquery_colorpicker/resources *.png
 recursive-include js/jquery_colorpicker/resources *.gif
+recursive-include js/jquery_colorpicker *.txt
+include *.txt
+
