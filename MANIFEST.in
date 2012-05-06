@@ -1,0 +1,2 @@
+recursive-include js/jquery_colorpicker/resources *.js
+recursive-include js/jquery_colorpicker/resources *.css
