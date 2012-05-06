@@ -391,7 +391,6 @@
 						var id = 'collorpicker_' + parseInt(Math.random() * 1000);
 						$(this).data('colorpickerId', id);
 						var cal = $(tpl).attr('id', id);
-						$(cal).css('zIndex', opt.zIndex);
 						if (options.flat) {
 							cal.appendTo(this).show();
 						} else {
@@ -433,6 +432,7 @@
 						} else {
 							$(this).bind(options.eventName, show);
 						}
+						cal.css('z-index', opt.zIndex);
 					}
 				});
 			},
